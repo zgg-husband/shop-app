@@ -1,0 +1,68 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "奥特曼商城"
+			}
+		},
+		{
+			"path": "pages/consultation/index",
+			"style": {
+				"navigationBarTitleText": "奥特曼商城"
+			}
+		},
+		{
+			"path": "pages/car/index",
+			"style": {
+				"navigationBarTitleText": "奥特曼商城"
+			}
+		},
+		{
+			"path": "pages/vip/index",
+			"style": {
+				"navigationBarTitleText": "奥特曼商城"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "奥特曼商城",
+		"navigationBarBackgroundColor": "#c41e00",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color": "#7A7E83",
+		"selectedColor": "#c41e00",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		// #ifdef MP-WEIXIN
+			"position":"top",
+		// #endif
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/icon/home.png",
+				"selectedIconPath":"static/icon/home-active.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/consultation/index",
+				"iconPath":"static/icon/news.png",
+				"selectedIconPath":"static/icon/news-active.png",
+				"text":"咨询"
+			},{
+				"pagePath":"pages/car/index",
+				"iconPath":"static/icon/cart.png",
+				"selectedIconPath":"static/icon/cart-active.png",
+				"text":"购物车"
+			},
+			{
+				"pagePath":"pages/vip/index",
+				"iconPath":"static/icon/member.png",
+				"selectedIconPath":"static/icon/member-active.png",
+				"text":"会员"
+			}
+		]
+	}
+}
